@@ -1,0 +1,47 @@
+.multicaro {
+  padding: 0px 5px;
+}
+.multicaro .carousel-inner {
+  padding: 20px;
+}
+.multicaro .card {
+  border: 2px solid #1b75d2 !important;
+}
+
+.test {
+  -ms-transform: skewY(20deg); /* IE 9 */
+  transform: skewY(20deg);
+}
+.multicaro .btn {
+  /* background: #c2d227; */
+  background: #ffe78d;
+  color: #000;
+  border-radius: 30px;
+  border: 1px solid #000;
+  padding: 3px 10px;
+}
+.card-title {
+  font-size: 20px;
+}
+.innercaro {
+  padding: 0px 5px;
+  /* background: #74b9fe; */
+  background: #d89394;
+  border-radius: 3px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.slick-next:before,
+.slick-prev:before {
+  font-size: 40px;
+  line-height: 1;
+  opacity: 1;
+  /* color: #c2d227; */
+  color: #ffe78d;
+}
+.slick-prev {
+  left: -40px;
+}
+.slick-next {
+  right: -20px;
+}

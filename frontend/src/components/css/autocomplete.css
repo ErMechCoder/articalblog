@@ -1,0 +1,32 @@
+
+
+.autocomplete{
+   /* z-index: 9999; */
+   position: absolute;
+   z-index: 1;
+    top: 0;
+    right: 0;
+    margin: auto;
+    max-width: 300px;
+   width: 200px;
+   height: auto;
+   max-height: 300px;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+    position: absolute;
+    top: 50px;
+    background: #a7d1f9;
+    overflow: scroll;
+   
+  
+}
+.autocomplete-item{
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #a7d1f9;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    color: #000;
+}
